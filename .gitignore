@@ -1,0 +1,38 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# Android is a checked-in Flutter platform directory.
+/android/.gradle/
+/android/local.properties
+/android/**/build/
+/android/**/.cxx/
+
+# Downloaded local language-model weights (installed separately from the APK)
+/local-models/
+
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+build/
+*.iml
+# Widget Preview related
+.widget_preview/
